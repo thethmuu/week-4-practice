@@ -47,6 +47,12 @@ section {
   border: none;
   border-radius: 3px;
 }
+.btn:hover {
+  background-color: #25bf9b;
+}
+.btn:active {
+  background-color: #3a25bf;
+}
 footer {
   width: 100%;
   padding: 16px 0;
@@ -65,4 +71,8 @@ footer .container {
 footer svg {
   width: 30px;
   margin-right: 14px;
+}
+footer svg:hover {
+  cursor: pointer;
+  fill: rebeccapurple;
 }
