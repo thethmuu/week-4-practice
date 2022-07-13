@@ -13,9 +13,16 @@ body {
 }
 nav {
   padding: 24px 0;
+  position: sticky;
+  background-color: #013243;
+  top: 0;
+  left: 0;
 }
 nav img {
   width: 80px;
+}
+section {
+  margin-top: 24px;
 }
 .container {
   width: 840px;
@@ -42,10 +49,11 @@ nav img {
 }
 footer {
   width: 100%;
-  padding: 24px 0;
+  padding: 16px 0;
   position: fixed;
   left: 0;
   bottom: 0;
+  background-color: #013243;
 }
 footer p {
   color: #a5bac3;
